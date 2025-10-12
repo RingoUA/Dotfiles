@@ -1,7 +1,7 @@
 # Aliases
-alias ls='eza -hg --group-directories-first --color=always'
+alias ls='eza -hg --group-directories-first --color=always --icons=always'
 alias l='ls'
-alias ll='ls -l'
+alias ll='ls -l --git'
 alias la='ll -a'
 
 # History
