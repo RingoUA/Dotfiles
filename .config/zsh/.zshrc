@@ -4,6 +4,8 @@ alias l='ls'
 alias ll='ls -l --git'
 alias la='ll -a'
 
+alias cat='bat'
+
 # History
 export HISTFILE=$HOME/.config/zsh/.zsh_history
 export HISTSIZE=100
