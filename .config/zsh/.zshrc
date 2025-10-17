@@ -12,6 +12,7 @@ export HISTSIZE=100
 export SAVEHIST=1000
 
 # Command prompt using starship
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 eval "$(starship init zsh)"
 
 # Path config
