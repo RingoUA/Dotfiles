@@ -41,7 +41,7 @@
       "show-special": true,
       "special-visible-only": true,
       "disable-scroll": true,
-      "all-outputs": true,
+      "all-outputs": true
     },
 
     "hyprland/language": {
@@ -59,9 +59,9 @@
           ""
         ],
         "car": "",
-        "handsfree": "",
+        "handsfree": "󰥰",
         "headphones": "",
-        "headset": "",
+        "headset": "󰋎",
         "phone": "",
         "portable": ""
       },
