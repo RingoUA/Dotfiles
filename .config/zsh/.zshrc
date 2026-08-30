@@ -25,3 +25,5 @@ export PATH=$PATH:$HOME/.local/opt/go/bin
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:$HOME/Scripts
 
+export LIBVIRT_DEFAULT_URI="qemu:///system"
+export EDITOR=nvim
