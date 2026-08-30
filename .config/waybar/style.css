@@ -1,7 +1,7 @@
 * {
   border: none;
   border-radius: 0px;
-  font-family: "JetBrains Mono";
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", "Symbols Nerd Font Mono";
   font-weight: bold;
   font-size: 16px;
   min-height: 0;
@@ -70,4 +70,3 @@ window#waybar {
   color: #d65d0e;
   border-bottom: 4px solid #d65d0e;
 }
-
