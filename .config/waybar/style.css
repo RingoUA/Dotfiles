@@ -1,0 +1,73 @@
+* {
+  border: none;
+  border-radius: 0px;
+  font-family: "JetBrains Mono";
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 0;
+  color: #ebdbb2;
+  margin: 0;
+  padding: 0;
+}
+
+window#waybar {
+  background: #1d2021;
+}
+
+/* Workspace Buttons */
+#workspaces button label{
+  padding: 0 18px;
+}
+
+#workspaces button.active label {
+  color: #1d2021;
+}
+
+#workspaces button:hover {
+  background: #3c3836;
+}
+
+#workspaces button.active {
+  background: #d65d0e;
+}
+
+#clock, #network, #pulseaudio, #tray, #language, #weather {
+  padding: 0 10px;
+}
+
+#language {
+  color: #d79921;
+  border-bottom: 4px solid #d79921;
+}
+
+#network {
+  color: #98971a;
+  border-bottom: 4px solid #98971a
+}
+
+#pulseaudio{
+  color: #689d6a;
+  border-bottom: 4px solid #689d6a;
+}
+
+#pulseaudio.muted {
+  padding: 0 20px;
+  color: #cc241d;
+  border-bottom: 4px solid #cc241d;
+}
+
+#clock.time {
+  color: #458588;
+  border-bottom: 4px solid #458588;
+}
+
+#clock.date {
+  color: #b16286;
+  border-bottom: 4px solid #b16286;
+}
+
+#tray {
+  color: #d65d0e;
+  border-bottom: 4px solid #d65d0e;
+}
+

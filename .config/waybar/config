@@ -1,0 +1,93 @@
+[
+  {
+    "height": 30,
+    "position": "top",
+    "layer": "top",
+
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+      "hyprland/window"
+    ],
+
+    "modules-right": [
+      "hyprland/language",
+      "network",
+      "pulseaudio",
+      "clock#time",
+      "clock#date",
+      "tray"
+    ],
+
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "magic": ""
+      },
+      "persistent-workspaces": {
+        "*": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      },
+      "show-special": true,
+      "special-visible-only": true,
+      "disable-scroll": true,
+      "all-outputs": true,
+    },
+
+    "hyprland/language": {
+      "format-en": "🇺🇸",
+      "format-uk": "🇺🇦",
+      "min-length": 5
+    },
+
+    "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-bluetooth": "{icon} {volume}% ",
+      "format-icons": {
+        "default": [
+          "",
+          ""
+        ],
+        "car": "",
+        "handsfree": "",
+        "headphones": "",
+        "headset": "",
+        "phone": "",
+        "portable": ""
+      },
+      "format-muted": "",
+      "on-click": "pavucontrol"
+    },
+
+    "network": {
+      "format-wifi": "  {essid}",
+      "format-ethernet": "󰈀  Ethernet",
+      "format-disconnected": "⚠  Offline",
+      "tooltip": false
+    },
+
+    "clock#time": {
+      "format": "{:%H:%M}"
+    },
+
+    "clock#date": {
+      "format": "{:%d.%m.%Y}"
+    },
+
+    "tray": {
+      "icon-size": 16,
+      "spacing": 2
+    }
+  }
+]
+
