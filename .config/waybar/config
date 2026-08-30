@@ -77,11 +77,11 @@
     },
 
     "clock#time": {
-      "format": "{:%H:%M}"
+      "format": "  {:%H:%M}"
     },
 
     "clock#date": {
-      "format": "{:%d.%m.%Y}"
+      "format": "  {:%d.%m.%Y}"
     },
 
     "tray": {
@@ -90,4 +90,3 @@
     }
   }
 ]
-
